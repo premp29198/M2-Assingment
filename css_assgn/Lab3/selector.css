@@ -1,0 +1,45 @@
+html{
+  background-color: #1f1f1d;
+}
+h1{
+  color:#5cfaea;
+  font-family: Castellar;
+}
+#d1{
+  color:#ebde34;
+  font-family: serpentine;
+  text-transform: capitalize;
+}
+#d2{
+  color:#bcd136;
+  font-family: arial;
+  text-emphasis-style: filled;
+}
+#d3{
+  color:#86d136;
+  font-family: roboto;
+  text-rendering: optimizeLegibility;
+}
+#p1{
+  color:#c9c4b3;
+  font-family: candara;
+  letter-spacing:2px;
+}
+#p2{
+  color: #c9c4b3;
+  font-family: verdana;
+  word-spacing: 5px;
+}
+#p3{
+  color: #aebfbe;
+  font-family: roboto;
+  word-break: break-all;
+}
+#p4{
+  color:#aebfbe;
+  font-family: Gadugi;
+}
+#p5{
+  color: #bfaeae;
+  font-family: Segoe UI;
+}

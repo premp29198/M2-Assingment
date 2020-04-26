@@ -1,0 +1,27 @@
+h1{
+font-family:calibri;
+text-decoration: underline;
+text-align: center;
+}
+h2{
+  font-family: serpentine;
+  text-decoration: underline;
+  color:rgb(124,244,128);
+  text-align: center;
+}
+b{
+  font-family: arial;
+  color:rgba(187, 211, 0, 0.7);
+}
+
+.p1{
+  font-family: roboto;
+  font-style: italic;
+  color:hsl(28%, 60%%, 40%%);
+}
+
+.p2
+{
+  font-family: Comic Sans MS;
+  color: hsla(78%, 360%, 340%, 0.5);
+}

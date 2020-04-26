@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Employee details</title>
+    <style media="screen">
+      .form{
+        text-align:center;
+        font-weight:bold;
+      }
+      table
+        {
+          background-color:skyblue;
+        }
+      </table>
+    </style>
+  </head>
+  <body>
+  <h1>Prem Prakash</h1>
+<table style="width:50%; height:60%;"border=2>
+  <form  action="index.html" method="post">
+    <tr>
+      <td class="form"><label for="name">Name</label></td>
+      <td ><input type="text" name="name" value="" size="35"></td>
+    </tr>
+    <tr>
+      <td class="form" ><label for="code">Employee Code</label></td>
+      <td ><input type="text" name="code" value="" size="35"></td>
+    </tr>
+    <tr>
+      <td class="form">Department</td>
+      <td ><input type="radio" name="admin" value="Admin"><label for="admin">Admin</label><br>
+        <input type="radio" name="hr" value="HR"><label for="hr">HR</label><br>
+        <input type="radio" name="techt" value="Technical"><label for="techt">Technical</label><br>
+        <input type="radio" name="acc" value="Accounts"><label for="acc">Accounts</label><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="form"><label for="doj">Date of Joining</label></td>
+      <td><input type="date" name="doj" value=""></td>
+    </tr>
+    <tr>
+      <td class="form">
+        Training Programs Attended
+      </td>
+      <td>
+        <input type="checkbox" name="course1" value="HTML/DHTML">HTML/DHTML<br>
+        <input type="checkbox" name="scourse2" value="JAva">Java<br>
+        <input type="checkbox" name="course3" value="Client/Server">Client/Server<br>
+        <input type="checkbox" name="course4" value="NET">\.NET<br>
+      </td>
+    </tr>
+    <tr>
+      <td class="form">Training Program Needs to Attend</td>
+      <td><select id="courses">
+  <option value="Javascript">JavaScript</option>
+  <option value="Python">Python</option>
+  <option value="XML">XML</option>
+  <option value="SQL">SQL</option>
+  </select></td>
+    </tr>
+    <tr>
+      <td class="form">Send the information at</td>
+      <td>
+      <a href="mailto:empinfo@capgemini.com?Subject=Hello%World" target="_blank">empinfo@capgemini.com</a></td>
+    </tr>
+  </form>
+</table>
+  </body>
+</html>

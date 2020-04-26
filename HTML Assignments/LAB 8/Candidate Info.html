@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Candidate Information</title>
+    <style media="screen">
+    table
+      {
+        background-color:skyblue;
+      }
+	  .heading{
+	   margin-left:200;
+	  }
+	  .tablecontainer{
+		 margin-left:200;
+	  
+	  }
+    </style>
+  </head>
+  <body>
+  <h1 class="heading">Prem Prakash</h1>
+  <div class="tablecontainer">
+    <table border="2px" style="width:40%;margin-left:20;padding:2;">
+      <form  action="index.html" method="post">
+        <tr>
+          <td> <label for="name">Name:</label> </td>
+          <td> <input required type="text" name="name" value="" > </td>
+        </tr>
+        <tr>
+          <td> <label for="pwd" >Password:</label> </td>
+          <td> <input required type="password" name="pwd" value="" > </td>
+        </tr>
+        <tr>
+          <td> <label for="no">Phone number:</label> </td>
+          <td> <input required type="number" name="no" value="" > </td>
+        </tr>
+        <tr>
+          <td> Gender: </td>
+          <td> <input type="radio" id="male" name="gender" value="male">
+				<label for="male">Male</label>
+				<input type="radio" id="female" name="gender" value="female">
+				<label for="female">Female</label></td>
+        </tr>
+        <tr>
+          <td> <label for="dob">Date of Birth:</label> </td>
+          <td> <input required type="date" name="dob" value=""> </td>
+        </tr>
+        <tr>
+          <td> <label for="mail">Email:</label> </td>
+          <td> <input required type="email" name="mail" value=""> </td>
+        </tr>
+        <tr>
+          <td>Highest Qualification:</td>
+          <td>  <select name="qualification">
+            <option>Select Highest Qualification</option>
+            <option value="P.G.">Post Graduate</option>
+            <option value="Batchelor">Batchelor</option>
+            <option value="HSc">HSC</option>
+            <option value="SSC">SSC</option>
+            </select>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td> <label for="courses">Course Interested in:</label> </td>
+          <td>
+            <input type="checkbox" name="course2" value="Java">Java
+            <input type="checkbox" name="course1" value="HTML 5">HTML 5
+            <input type="checkbox" name="course3" value="CSS3">CSS 3
+            <input type="checkbox" name="course4" value="angular">Angular JS
+            <input type="checkbox" name="course4" value="JQuery">JQuery
+           </td>
+        </tr>
+        <tr>
+          <td> <label for="comments">Comments: (Mention external Certifications if any)</label> </td>
+          <td> <textarea name="comments" rows="6" cols="80"></textarea> </td>
+        </tr>
+        <tr>
+          <td> <label for="degree">Upload degree/external certificates:</label> </td>
+          <td>
+            <input type="file" name="degree" value="Choose File">
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td> <input type="submit" name="" value="Submit Information">
+              <input type="button" name="" value="clear">
+          </td>
+        </tr>
+      </form>
+    </table>
+	</div>
+  </body>
+</html>
